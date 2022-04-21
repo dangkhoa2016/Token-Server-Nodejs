@@ -1,0 +1,4 @@
+DEBUG=token-server-nodejs* node
+require('dotenv').config({ path: '.env.local' });
+var AccountsHelper = require('./lib/accounts_helper');
+var ReplitDatabase = require('./lib/replit_database');
